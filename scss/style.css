@@ -1,0 +1,185 @@
+.row {
+  max-width: 100%;
+}
+
+#getOff {
+  color: #FFFFFF;
+  background-color: #F5576C;
+  padding: 1px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#getOff p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#getOff p #border {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+#getOff .fa-times {
+  font-size: 16px;
+  color: #d5b8b6;
+  margin-left: 9px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#getOff .fa-times:hover {
+  color: #FCD5DA;
+}
+
+#applyNow {
+  overflow-x: hidden;
+  max-width: 100%;
+  background-color: #343A40;
+  padding: 10px 0px;
+}
+
+#applyNow .info {
+  display: inline-block;
+  margin: 10px 190px;
+}
+
+#applyNow .info a {
+  text-decoration: none;
+  color: #FFFFFF;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#applyNow .info a:hover {
+  color: #DF9C00;
+}
+
+#applyNow .icons {
+  display: inline-block;
+}
+
+#applyNow .icons a {
+  color: #FFFFFF;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#applyNow .icons a:hover {
+  color: #DF9C00;
+}
+
+#applyNow .btn {
+  color: #DF9C00;
+  border-radius: 4px;
+  margin-top: -6px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+#applyNow .btn:hover {
+  background-color: #DF9C00;
+  border-color: #DF9C00;
+  overflow: hidden;
+  color: #fff;
+}
+
+#applyNow .btn::before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  overflow: hidden;
+  width: 2em;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  -webkit-transform: skewX(-45deg) translateX(0);
+  transform: skewX(-45deg) translateX(0);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+#applyNow .btn:hover::before {
+  overflow: hidden;
+  -webkit-transform: skewX(-45deg) translateX(30em);
+  transform: skewX(-45deg) translateX(30em);
+}
+
+#applyNow .btn-warning {
+  color: white;
+  position: relative;
+}
+
+#applyNow p {
+  display: inline-block;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+#applyNow p:hover {
+  color: #DF9C00;
+}
+
+#applyNow #apply {
+  position: relative;
+  top: 10px;
+  left: 257px;
+}
+
+#applyNow .fas::before {
+  margin: 0px 5px;
+}
+
+#applyNow .far::before {
+  margin: 0px 5px;
+}
+
+#applyNow .fab::before {
+  margin: 0px 5px;
+}
+
+#eduGlobal {
+  padding: 10px;
+}
+
+#eduGlobal #dropdownMenuLink {
+  font-weight: 400;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+#eduGlobal #dropdownMenuLink:hover {
+  color: #DF9C00;
+}
+
+#eduGlobal .nav-link {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+#eduGlobal .nav-link:hover {
+  color: #DF9C00;
+}
+
+#eduGlobal .fa-search {
+  color: black;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+#eduGlobal .fa-search:hover {
+  color: #DF9C00;
+}
+/*# sourceMappingURL=style.css.map */

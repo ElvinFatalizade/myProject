@@ -1,0 +1,202 @@
+.row{
+    max-width: 100%;
+    }
+    
+// Start Get Off
+#getOff{
+
+    color: $color-white;
+    background-color: $color-red;
+    padding: 1px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+
+
+    p{
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+        
+        #border{
+            color: $color-white;
+            text-decoration: none;
+            text-decoration: underline;
+         
+
+        }
+    }
+    .fa-times{
+        font-size: 16px;
+        color:#d5b8b6;
+        margin-left: 9px;
+        transition: all .4s;
+       
+        &:hover{
+            color: #FCD5DA;
+             
+        }
+        
+    }
+    
+
+}
+// End Get Off
+#applyNow{
+    overflow-x: hidden;
+    max-width: 100%;
+    background-color: $color-grey;
+    padding: 10px 0px;
+    .info{
+        display: inline-block;
+        margin: 10px 190px;
+      
+        
+       
+        a{
+            text-decoration: none;
+            color: $color-white;
+            transition: all 0.4s;
+            &:hover{
+                color: $color-yellow;
+            }
+        }
+    }
+    .icons{
+    display: inline-block;
+ 
+        a{
+            color: $color-white;
+            transition: all 0.4s;
+            &:hover{
+                color: $color-yellow;
+            }
+          
+        }
+    }
+    .btn{
+        color: $color-yellow;
+        border-radius: 4px;
+        margin-top: -6px;
+        margin-left: 10px;
+        overflow: hidden;
+        &:hover {
+            background-color: #DF9C00;
+            border-color: #DF9C00;
+            overflow: hidden;
+            color: #fff;
+        }
+        &::before {
+            content: "";
+            background-color: rgba(255, 255, 255, 0.5);
+            height: 100%;
+            overflow: hidden;
+            width: 2em;
+            position: absolute;
+            top: 0;
+            left: -4.5em;
+            -webkit-transform: skewX(-45deg) translateX(0);
+            transform: skewX(-45deg) translateX(0);
+            transition: all 0.8s ease-in-out;
+        }
+        &:hover::before {
+            overflow: hidden;
+            -webkit-transform: skewX(-45deg) translateX(30em);
+            transform: skewX(-45deg) translateX(30em);
+        }
+    
+    }
+
+    .btn-warning{
+       color: white;
+       position: relative;
+     
+   
+
+    }
+
+    p{
+    display: inline-block;
+    color: $color-white;
+    font-family: $font-roboto;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    cursor: pointer;
+    &:hover{
+        color: $color-yellow;
+    }
+
+    }
+  #apply{
+    position: relative;
+    top: 10px;
+    left: 257px;
+  }
+  .fas{
+    &::before{
+        margin: 0px 5px;
+    }
+}
+.far{
+    &::before{
+        margin: 0px 5px;
+    }
+}
+.fab{
+    &::before{
+        margin: 0px 5px;
+    } 
+}
+}
+// Edu Global Start
+#eduGlobal{
+ padding: 10px;
+ 
+ 
+ #dropdownMenuLink {
+     font-weight: 400;
+     color: black;
+     font-family: $font-roboto;
+     -webkit-transition: all .6s;
+     transition: all .6s;
+     
+
+     &:hover{
+       color:$color-yellow;
+       
+     }
+     
+  }
+  
+  .nav-link{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-family: $font-roboto;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    &:hover{
+        color:$color-yellow;
+    }
+
+  }
+  .fa-search {
+      color: black;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    &:hover{
+        color:$color-yellow;
+    }  
+  }
+ 
+}
+
+
+
+
+
+// Edu Global End
+
+
+ 
+
