@@ -6,8 +6,8 @@ $(document).ready(function(){
         loop:true,
         dosts:false,
         autoplay:false,
-        margin:5,
-        freeDrag:true,
+        margin:10,
+        freeDrag:false,
         
        autoplay:false,
         mouseDrag:true,
