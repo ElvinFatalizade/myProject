@@ -1,0 +1,43 @@
+ 
+ p{
+     text-align: center;
+     color:  #999999;
+ }
+
+ .jonWood{
+      display: flex;
+     justify-content: start;
+     position: relative;
+      top: -9px;
+      left: 18px;
+
+span{
+         margin: 0px 9px;
+        color: $color-yellow;
+         cursor: pointer;
+         color: #ffbc0a;
+         transition: all 0.7s;
+         &:hover{
+             color: $color-yellow;
+
+       }
+     }
+   
+  }
+  .coming{
+  position: relative;
+  bottom: 3rem;
+  text-align: center;
+
+}
+.event{
+    position: relative;
+    bottom: 3rem;
+
+    p{
+       text-align: start;
+   }
+   .may{
+       background-color: red;
+   }
+}

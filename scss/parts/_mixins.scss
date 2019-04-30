@@ -4,4 +4,46 @@
     transition: $property;
 }
 
- 
+ @mixin btn{
+    .btn{
+        color: $color-yellow;
+        border-radius: 4px;
+        margin-top: -6px;
+        margin-left: 10px;
+        overflow: hidden;
+        &:hover {
+            background-color: #DF9C00;
+            border-color: #DF9C00;
+            overflow: hidden;
+            color: #fff;
+        }
+        &::before {
+            content: "";
+            background-color: rgba(255, 255, 255, 0.5);
+            height: 100%;
+            overflow: hidden;
+            width: 2em;
+            position: absolute;
+            top: 0;
+            left: -4.5em;
+            -webkit-transform: skewX(-45deg) translateX(0);
+            transform: skewX(-45deg) translateX(0);
+            transition: all 0.8s ease-in-out;
+        }
+        &:hover::before {
+            overflow: hidden;
+            -webkit-transform: skewX(-45deg) translateX(30em);
+            transform: skewX(-45deg) translateX(30em);
+        }
+    
+    }
+
+    .btn-warning{
+       color: white;
+       position: relative;
+     
+   
+
+    }
+
+ }

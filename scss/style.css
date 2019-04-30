@@ -1,7 +1,3 @@
-body {
-  height: 2000px;
-}
-
 .carousel-item {
   height: 100vh;
   background-size: cover;
@@ -372,10 +368,6 @@ p {
   background-color: #B3D369;
 }
 
-body {
-  height: 5000px;
-}
-
 #mostPopular {
   text-align: center;
   position: relative;
@@ -505,6 +497,10 @@ body {
 .sliders .owl_5 a {
   color: #fff;
   font-size: 40px;
+}
+
+.start {
+  text-align: start !important;
 }
 
 .overlap_section {
@@ -664,5 +660,241 @@ body {
     -webkit-transform: scale(4);
             transform: scale(4);
   }
+}
+
+.course {
+  text-align: center;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.left .fas {
+  color: #ffc601;
+}
+
+.alia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 14px;
+  overflow: hidden;
+}
+
+.alia .blue {
+  border: 1px solid #d1ecf1;
+  background-color: #d1ecf1;
+}
+
+.alia img {
+  border-radius: 50% !important;
+}
+
+.alia span {
+  margin: 0;
+  padding: 5px 15px;
+  border: 1px solid #c3e6cb;
+  background-color: #d4edda;
+  text-align: right;
+}
+
+.courses {
+  background-color: #FFFF;
+  -webkit-box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
+  box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
+  position: relative;
+  margin: 0px;
+}
+
+.courses .img {
+  overflow: hidden !important;
+}
+
+.courses h5 {
+  cursor: pointer;
+  margin-left: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.courses h5:hover {
+  color: #FFBC0A;
+}
+
+.courses p {
+  margin-left: 16px;
+}
+
+.courses img {
+  border-radius: 8px;
+  max-width: 98%;
+  margin-left: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+  overflow: hidden  !important;
+}
+
+.courses img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.another {
+  color: #DF9C00;
+  border-radius: 4px;
+  margin-top: -6px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-align: justify;
+  padding: 11px 32px;
+}
+
+.another:hover {
+  background-color: #DF9C00;
+  border-color: #DF9C00;
+  overflow: hidden;
+  color: #fff;
+}
+
+.another::before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  overflow: hidden;
+  width: 2em;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  -webkit-transform: skewX(-45deg) translateX(0);
+  transform: skewX(-45deg) translateX(0);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.another:hover::before {
+  overflow: hidden;
+  -webkit-transform: skewX(-45deg) translateX(30em);
+  transform: skewX(-45deg) translateX(30em);
+}
+
+.btn-warning {
+  color: white;
+  position: relative;
+}
+
+body {
+  height: 7000px;
+}
+
+.parallax {
+  background-image: url("../img/counter_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1519px !important;
+  height: 527px !important;
+  background-attachment: fixed !important;
+  position: relative;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  width: 1519px;
+  height: 527px;
+  z-index: 1 !important;
+  background-color: rgba(7, 41, 77, 0.7);
+}
+
+.icon {
+  text-align: center;
+  position: relative;
+  bottom: 20rem;
+  z-index: 1;
+  left: 0rem;
+  color: white;
+}
+
+.icon ul {
+  list-style-type: none;
+}
+
+.icon ul span {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.icon ul .student {
+  font-size: 15px;
+  font: 900;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.icon .icon1 {
+  position: relative;
+  left: 16px;
+}
+
+p {
+  text-align: center;
+  color: #999999;
+}
+
+.jonWood {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  position: relative;
+  top: -9px;
+  left: 18px;
+}
+
+.jonWood span {
+  margin: 0px 9px;
+  color: #DF9C00;
+  cursor: pointer;
+  color: #ffbc0a;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.jonWood span:hover {
+  color: #DF9C00;
+}
+
+.coming {
+  position: relative;
+  bottom: 3rem;
+  text-align: center;
+}
+
+.event {
+  position: relative;
+  bottom: 3rem;
+}
+
+.event p {
+  text-align: start;
+}
+
+.event .may {
+  background-color: red;
 }
 /*# sourceMappingURL=style.css.map */

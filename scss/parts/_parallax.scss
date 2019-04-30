@@ -1,0 +1,53 @@
+body{
+  height:   7000px;
+}
+.parallax{
+    background-image: url("../img/counter_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1519px !important;
+    height: 527px !important;
+    background-attachment: fixed !important;  
+      position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 1519px;
+        height: 527px;
+        z-index: 1 !important;
+        background-color: rgba(7, 41, 77, 0.70);      
+  
+   
+  }
+ 
+  
+ }
+ .icon{
+   
+  text-align: center;
+  position: relative;
+  bottom: 20rem;
+  z-index: 1;
+  left: 0rem;
+  color: white;
+  ul{
+    list-style-type: none;
+    span{
+      font-size: 35px;
+      font-weight: bold;
+      }
+
+      .student{
+        font-size: 15px;
+        font: 900;
+        font-family: $font-roboto;
+        color: white;
+    
+  }
+  }
+  .icon1{
+    position: relative;
+    left: 16px;
+  }
+ }
