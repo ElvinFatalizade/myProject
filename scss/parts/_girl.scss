@@ -1,0 +1,129 @@
+.pattern{
+
+    .girl{
+       
+      
+        img{
+            height: 90vh;
+            background-color: #07294D;
+            background-size: cover;
+            background-position:  center center;
+            padding-bottom: 0!important;
+            z-index: -1;
+            width: 100%;
+        }
+    }
+    .area{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    position: relative;
+    bottom: 571px;
+    height: 29rem;
+    width: 36rem;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 13px;
+    h2{
+        color: white;
+        font-weight: bold;
+        font-family: $font-roboto;
+        margin-right: 111px;
+
+        .color{
+            color: #FEBB09;
+            font-weight: bold;
+            font-family: $font-roboto;
+        }
+    }
+    .color_1{
+        color: white;
+        text-align: start;
+        width: 28rem;
+       margin-left: 34px;
+       font: 500;
+    }
+    .form-row{
+        margin: 23px 31px;
+        .form-control{
+            background-color: #203f5f;
+           color: white;
+        }
+        ::placeholder{
+            color: white;
+        }
+        .select{
+            position: relative;
+            bottom: 4px;
+            width: 204px;
+            option{
+                background: white;
+            }
+        }
+    }
+    .text{
+        background-color: #203f5f;
+            color: white;
+            width: 425px;
+            margin-left: 20px;
+           
+        }
+        
+    .another_1{
+        color: $color-yellow;
+        border-radius: 4px;
+        margin-top: -6px;
+        margin: 2px;
+        margin-right: 21rem;
+        margin-left: 10px;
+        overflow: hidden;
+        text-align: justify;
+        padding: 11px 32px;
+        &:hover {
+            background-color: #DF9C00;
+            border-color: #DF9C00;
+            overflow: hidden;
+            color: #fff;
+        }
+        &::before {
+            content: "";
+            background-color: rgba(255, 255, 255, 0.5);
+            height: 100%;
+            overflow: hidden;
+            width: 2em;
+            position: absolute;
+            top: 0;
+            left: -4.5em;
+            -webkit-transform: skewX(-45deg) translateX(0);
+            transform: skewX(-45deg) translateX(0);
+            transition: all 0.8s ease-in-out;
+        }
+        &:hover::before {
+            overflow: hidden;
+            -webkit-transform: skewX(-45deg) translateX(30em);
+            transform: skewX(-45deg) translateX(30em);
+        }
+    
+    }
+
+    .btn-warning{
+       color: white;
+       position: relative;
+     
+   
+
+    }
+
+    }
+    }
+    .girl_1{
+       img{
+        position: relative;
+        bottom: 635px;
+       }
+    }
+
+ .form-group{
+     ::placeholder{
+         color: white;
+     }
+ }
