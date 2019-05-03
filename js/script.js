@@ -1,4 +1,23 @@
 $(document).ready(function(){
+
+    $(window).scroll(function () {
+        if ($("html").scrollTop() >= 70) {
+            $("#eduGlobal").addClass("fixed-top").css("background-color", "white");
+        } else {
+            $("#eduGlobal").removeClass("fixed-top");
+        }
+    });
+
+    $("#eduGlobal .nav-item").hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(300);
+      }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(100);
+      });
+
+   $('#icon').click(function(){
+    $('#getOff').hide();
+
+   });
     $('.carousel').carousel({
         interval: 5000
       })
@@ -59,5 +78,44 @@ $(document).ready(function(){
               $(links[i]).animate({ top: "255px" });
           })
       }
+      $("#student-say .owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: false,
+        items: 2,
+        autoWidth: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 3
+            }
+        }
+
+    })
+    $('#client .owl-carousel').owlCarousel({
+        loop:true,
+        margin:20,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+    
      
 });

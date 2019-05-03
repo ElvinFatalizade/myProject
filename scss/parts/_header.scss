@@ -1,6 +1,8 @@
 .row{
     max-width: 100%;
     }
+
+    
     
 // Start Get Off
 #getOff{
@@ -149,10 +151,21 @@
         margin: 0px 5px;
     } 
 }
+.dropdown-menu{
+    display: none;
+}
+ul{
+list-style-type: none;
+}
 }
 // Edu Global Start
 #eduGlobal{
- padding: 10px;
+    display: inline block;
+ padding: 0px;
+ img{
+     position: relative;
+     top: 10px;
+ }
  
  
  #dropdownMenuLink {
@@ -165,6 +178,7 @@
 
      &:hover{
        color:$color-yellow;
+      
        
      }
      
@@ -176,21 +190,18 @@
     font-weight: bold;
     font-family: $font-roboto;
     -webkit-transition: all .6s;
-    transition: all .6s;
-    &:hover{
+    transition: all .4s;
+    cursor: pointer;
+    display: inline-block;
+    &:hover {
         color:$color-yellow;
+        
+     
     }
 
   }
-  .fa-search {
-      color: black;
-    -webkit-transition: all .6s;
-    transition: all .6s;
-    &:hover{
-        color:$color-yellow;
-    }  
-  }
- 
+  
+  
 }
 
 
