@@ -43,8 +43,12 @@
         
     }
     
-
+a{
+    text-decoration: none;
+    color: white;
 }
+}
+
 // End Get Off
 #applyNow{
     overflow-x: hidden;
@@ -184,6 +188,8 @@ list-style-type: none;
      
   }
   
+
+  
   .nav-link{
     display: inline-block;
     color: black;
@@ -202,6 +208,9 @@ list-style-type: none;
   }
   
   
+}
+.transfer{
+    text-decoration: none;
 }
 
 
