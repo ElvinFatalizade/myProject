@@ -65,20 +65,7 @@ $(document).ready(function () {
     //   End Ours Gallery
 
 
-    var cardImg = $("#our-teachers .card-img-top")
-    var links = $("#our-teachers .card-img-top .social")
-    for (let i = 0; i < cardImg.length; i++) {
-        $(cardImg[i]).mouseover(function () {
-            $(links[i]).stop();
-            $(links[i]).animate({ top: "120px" });
-        })
-
-        $(cardImg[i]).mouseout(function () {
-            $(links[i]).stop();
-            $(links[i]).animate({ top: "255px" });
-        })
-
-    }
+    
     $("#student-say .owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
@@ -128,6 +115,20 @@ $(document).ready(function () {
         $(cardImg[i]).mouseout(function () {
             $(links[i]).stop();
             $(links[i]).animate({ top: "255px" });
+        })
+
+    }
+    var Img = $("#our-teachers .card-img-top")
+    var link = $("#our-teachers .card-img-top .social")
+    for (let i = 0; i < Img.length; i++) {
+        $(Img[i]).mouseover(function () {
+            $(link[i]).stop();
+            $(link[i]).animate({ top: "120px" });
+        })
+
+        $(Img[i]).mouseout(function () {
+            $(link[i]).stop();
+            $(link[i]).animate({ top: "255px" });
         })
 
     }

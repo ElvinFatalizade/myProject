@@ -220,5 +220,105 @@ list-style-type: none;
 // Edu Global End
 
 
- 
+ @media screen and (max-width:768px){
+    #applyNow{
+        .info{
+         margin-left: 53px;
+        }
+        
+          #apply{
+            position: relative;
+            top: 10px;
+            left: 50px;
+    
+          }
+          
+        
+    }
+    .images{
+       h2,p{
+           position: relative;
+           bottom: 15rem;
+           font-size: 1rem !important;
+       }
+       a{
+           position: relative;
+           bottom: 15rem;
+           padding: 1px !important;
+           font-size: 1rem !important;
+       }
+    }
+
+    // .carousel-item .active{
+    //     ::before{
+    //         display: none;
+    //     }
+           
+    //     }
+    
+    .ripple{
+        position: relative !important;
+        bottom: 11rem !important;
+        top: -22rem !important;
+        left: 14rem !important;
+    }
+    .pattern{
+        .area{
+           position: relative;
+           bottom: 5rem !important; 
+           display: none !important;
+        }
+    }
+    .girl_1{
+        img{
+            display: none !important;
+        }
+    }
+    .girl{
+        img{
+            display: none !important;
+        }
+    }
+    .gallery_1{
+        position: relative;
+        top: 4rem !important;
+    }
+    .portfolio-item{
+        position: relative;
+        top: 4rem !important;
+    }
+    .portfolio-menu{
+        position: relative;
+        top: 3.8rem !important;
+    }
+    .parallax{
+        display: none !important;
+        span{
+            display: none !important;
+         
+        }
+    }
+    #our-teachers{
+        display: none !important;
+    }
+    #student-say{
+        display: none !important;
+    }
+    #client{
+        display: none !important;
+    }
+    .icon1{
+        img{
+            display: none !important;
+        }
+    }
+    .carousel-item{
+        height: 300px !important;
+    }
+    ul{
+    display: none !important;
+    }
+
+ }
+
 
