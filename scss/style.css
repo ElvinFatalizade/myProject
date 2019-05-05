@@ -1786,4 +1786,14 @@ footer {
   color: #8c8d8d;
   margin-top: 7px;
 }
+
+/* No CSS */
+.input {
+  padding: 10px 10px;
+}
+
+#every {
+  position: relative;
+  top: 30rem !important;
+}
 /*# sourceMappingURL=style.css.map */
